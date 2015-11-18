@@ -1,0 +1,49 @@
+html, body {
+	height: 100%;
+}
+body{
+	background-image: URL("img/bg2.jpg");
+}
+.jumbotron{
+	height: 100%;
+}
+
+.image.fit
+{   margin:25px;
+    display: block;
+    width: 100%;
+}
+h1.center{
+	text-align: center;
+}
+p.center{
+	text-align: center;
+}
+ul.right{
+	position: absolute;
+	right: 0px;
+}
+
+img.h:hover{
+    opacity=1.0
+}
+button{
+	position:absolute;
+	margin:20px;
+	right:20px;
+}
+
+
+.wallstyle1{
+	background: AliceBlue;
+	margin:25px;
+	padding: 25px;
+	width:100%;
+	height: 100%;
+
+}
+.wallstyle2 {
+	
+	margin:25px;
+	padding: 25px;
+}

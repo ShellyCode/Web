@@ -17,58 +17,104 @@
 		padding:5px;
 		text-align: center;
 	}
+	#header{
+		background-color: black;
+		color:white;
+		font-family:verdana
+		text-align:center；
+		padding:5px;
+	}
+	#nav{
+		line-height: 400px;
+		background-color: #eeeeee;
+		float:left;
+		width:200px;
+		height:800px
+		padding:5px;
+	}
+	#pic{
+		float:right;
+		width:50%
+	}
+	#poem{
+		width:350px;
+		float:left;
+		padding:20px;
+	}
+	#table{
+		float:right;
+		width:80%
+		padding:5px;
+	}
+	#footer{
+		clear:both;
+		background-color: black;
+		color:white;
+		text-align:center；
+		padding:5px;
+	}
 	</style>
 </head>
 
 <!--This is a comment. This would not appear in the display-->
 
-<body style="background-color:MistyRose; text-align:center">
-	<h1 style="font-family:verdana"> 邓宇 Deng<sub>4</sub></h1>
-	<a href="https://www.facebook.com/yu.deng.96" target="_blank"> Go to his FaceBook.</a>
-	<a href="#contact">Contact him.</a>
-	<a  href="https://www.facebook.com/yu.deng.96">
-		<img src="dy.jpg" alt="profile picture"  style="float:left;width:150px;height:120px">
-	</a>
-	<p style="color:ForestGreen "> <abbr "邓宇">DY</abbr>, 你是<b>傻比比</b>.   </p>
+<body>
+
+	<div id="header">
+		<h1 > 邓宇 Deng<sub>4</sub></h1>
+		<a href="https://www.facebook.com/yu.deng.96" target="_blank"> Go to his FaceBook.</a>
+		<a href="#contact">Contact him.</a>
+	</div>
+    
+	<div id="nav">
+		<p style="color:ForestGreen "> <abbr "邓宇">DY</abbr>, 你是<b>傻比比</b>.   </p>
+	</div>
+    <div id="pic">
+    	<a  href="https://www.facebook.com/yu.deng.96">
+			<img src="dy.jpg" alt="profile picture" style="width:128px;
+		height:100px" >
+		</a>
+	</div>
 	
-	<div style="background-color:black; color:white; padding: 20px;">
-	<p title="About DY">
-		<cite>云中他 </cite>by 小晶
-	</p>
-	<p>
-		他是一个石头，一棵草，一头猪，一只羊<br>
-		<bdo dir="rtl">他是一个石头，一棵草，一头猪，一只羊</bdo><br>
-		但是，<br> <del>他并不<i>坏</i>哦。</del><br>
-		他说:<q>我最爱jingyu了</q>
-	</p>
-	<pre >
-我告诉你一个<b>秘密</b>:
+	
 
-他有一个秃头车。
-
-传说中 <mark>“秃头配秃头车”</mark>。
-
-所以。。。。。
-
-你知道这个秘密是什么了吗？
-</div>
-	</pre>
-	<table style="width:80%">
-		<caption>Evaluation</caption>
-		<tr>
-			<th>Strong Point</th>
-			<th>Weak Point</th>			
-		</tr>
-		<tr>
-			<td> wait to be found  </td>
-			<td> Too much for one row space  </td>
-		</tr>
-	</table>
-	<hr>
-	<address id="contact">
-		Email:dengyuhappy@gmail.com<br>
-		Tel:12345678
-	</address>
+	<div  id="poem">
+		
+		<h1><cite>云中他 </cite> by 小晶<br></h1>
+		<p title="About DY">
+			他是一个石头，一棵草，一头猪，一只羊<br>
+			<bdo dir="rtl">他是一个石头，一棵草，一头猪，一只羊</bdo><br>
+			但是，<br> <del>他并不<i>坏</i>哦。</del><br>
+			他说:<q>我最爱jingyu了<br>
+		</q>
+		<p>
+			我告诉你一个<b>秘密</b>:<br>
+			他有一个秃头车。<br>
+			传说中 <mark>“秃头配秃头车”</mark>。<br>
+			所以。。。。。<br>
+			你知道这个秘密是什么了吗？<br>
+		</p>
+	</div>
+	<!--<div id="table">
+		<table>
+			<caption>Evaluation</caption>
+			<tr>
+				<th>Strong Point</th>
+				<th>Weak Point</th>			
+			</tr>
+			<tr>
+				<td> wait to be found  </td>
+				<td> Too much for one row space  </td>
+			</tr>
+		</table>
+	</div>-->
+	<div id="footer">
+		<hr>
+		<address id="contact">
+			Email:dengyuhappy@gmail.com<br>
+			Tel:12345678
+		</address>
+	</div>
 </body>
 
 </html>

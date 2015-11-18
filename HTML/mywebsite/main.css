@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+}
+body{
+	background-image: URL("img/bg2.jpg");
+}
+h1{
+	margin: 25px;
+	padding: :25px;
+}
+.jumbotron{
+	height: 100%;
+}
+
+.panel{
+	margin: 25px 0px;
+	position: relative;
+	height:80px;
+	width:100%;
+}
+
+.thumbnail{
+	margin: 25px 0px;
+	height:300px;
+
+}
+
+.image.fit
+{   margin:25px;
+    display: block;
+    max-width:100%;
+}
+h1.center{
+	text-align: center;
+}
+p.center{
+	text-align: center;
+}
+ul.right{
+	position: absolute;
+	right: 0px;
+}
+
+img.h:hover{
+    opacity=1.0
+}
+button{
+	position:absolute;
+	margin-left:-100px;
+	left:80%;
+	bottom:5px;
+
+}
+
+
+.wallstyle1{
+	background: AliceBlue;
+	margin:25px;
+	padding: 25px;
+	width:100%;
+	height: 100%;
+
+}
+.wallstyle2 {
+	
+	margin:25px;
+	padding: 25px;
+}

@@ -1,0 +1,23 @@
+body{
+	background:#999;
+	font-family:arial;
+}
+h1,h2{
+	color:#666;
+}
+a{
+	color:green;
+}
+p{
+  background:#666;
+  color:white;
+  padding:10px;
+}
+.sec{
+	background:none;
+    color:#777;
+}
+#nav{
+	background:white;
+    color:#777;
+}

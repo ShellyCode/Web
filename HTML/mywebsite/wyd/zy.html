@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="author" content="ziying cai" />
+	<meta name="description" content="Ziying Cai's Portfolio">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="144x144" href="ziyinglogo-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="ziyinglogo-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="ziyinglogo-72x72.png">
+	<link rel="apple-touch-icon" href="ziyinglogo.png">
+	<title>Ziying Cai - Portfolio</title>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- jQuery Files -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+	<!-- Royal Preloader -->
+	<link rel="stylesheet" type="text/css" href="css/royal_preloader.css" />
+	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+
+		// Change to your image paths
+	    var images = {
+	    	 	'slide1':     		'background.jpg',
+	    };
+	 
+	    // config
+	    Royal_Preloader.config({
+	        mode:       'text',
+	        images:     images,
+	        timeout:    10,
+	        showInfo:   false,
+	        background: ['#272727']
+	    });
+	</script>
+
+	<!-- Icon Fonts -->
+	<link href='css/ionicons.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="royal_loader" data-spy="scroll" data-target="#myScrollSpy" data-offset="100">
+
+	<!-- Begin Hero -->
+	<div class="jumbotron hero clearfix" data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;" data-anchor-target=".ticker h1" style="background-image: url(img/slider/slide5.png);">
+
+		<!-- Content -->
+		<div class="container center-vertically">
+			<p>I am a designer &amp; I like to <em>focus</em> on</p>
+			<div class="ticker">
+				<h1>UX+ UI</h1>
+				<h1>Mobile + Web</h1>
+				<h1>Visual + Logic</h1>
+			</div>
+			<hr>
+			<a href="#" data-id="section2" class="btn btn-default button-light scroll-link" style="margin-top:10px;">
+				Portfolio &nbsp;&nbsp;<span class="ion-ios7-arrow-down"></span>
+			</a>
+		</div>
+
+	</div>
+	<!-- End Hero -->
+
+	<!-- Begin Navigation -->
+	<div class="nav-main navbar">
+
+		<div class="container">
+
+			<div class="navbar-header">
+
+				<!-- Brand -->
+				<a href="javascript:void(0);" class="navbar-brand scroll-top">
+					<span class="ion-ios7-outline logo-icon" style="font-size: 2em;font-weight:300" >Ziying Cai</span>
+				</a>
+
+				<!-- Mobile Navigation -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="ion-navicon toggle-icon"></span>
+				</button>
+
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="navbar-collapse collapse navHeaderCollapse" id="myScrollSpy" role="navigation">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#section1" data-id="section1" class="scroll-link">Home</a></li>
+					<li><a href="#section2" data-id="section2" class="scroll-link">Portfolio</a></li>
+					<li><a href="#section3" data-id="section3" class="scroll-link">About</a></li>
+					<li><a href="#section6" data-id="section6" class="scroll-link">Contact</a></li>
+					
+				</ul>
+			</nav>
+
+		</div>
+
+	</div>
+	<!-- End Navigation -->
+
+
+	<!-- Begin Portfolio -->
+	<section id="section2">
+
+		<div class="container portfolio">
+
+			<!-- Page Title -->
+			<div class="row page-title-2">
+				<div class="col-lg-12">
+                    <h3>Portfolio</h3>
+				</div>
+			</div>
+
+			<!-- Portfolio Filter -->
+			<div data-scroll-reveal="enter left and move 50px over 1s" class="container text-center">
+			  <ul class="nav nav-pills">
+			    <li class="filter" data-filter="all">All</li>
+			    <li class="filter" data-filter="school">Academic Projects</li>
+			    <li class="filter" data-filter="work">Professional Projects</li>
+			   
+			  </ul>
+			</div>
+
+			<!-- Portfolio Items -->
+			<div class="container port-holder">
+			  <ul id="myPortfolio" class="no-padding">
+			    <li class="item school col-xs-4 no-padding">
+			    	<a href="project1.html" data-target="#myModal">
+						<img src="img/projects/thumbs/EbayReverse.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">eBayReverse</span><br>
+						  	<span class="portfolio-category">UX DESIGNER | MOBILE</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item work col-xs-4 no-padding">
+			    	<a  href="project2.html">
+						<img src="img/projects/thumbs/UITS.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">UITS WEBSITE</span><br>
+						  	<span class="portfolio-category">WEB DESIGNER | WEB</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item school col-xs-4 no-padding">
+			    	<a  href="project3.html">
+						<img src="img/projects/thumbs/Mint.png" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">Mint Pair</span><br>
+						  	<span class="portfolio-category">UX/Graphic DESIGNER | MOBILE </span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item work col-xs-4 no-padding">
+			    	<a data-toggle="modal" href="projects/project-3.html" data-target="#myModal">
+						<img src="img/projects/thumbs/theshop.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">McAllister</span><br>
+						  	<span class="portfolio-category">UX DESIGN INTERN | MOBILE </span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			   <li class="item school col-xs-4 no-padding">
+			    	<a data-toggle="modal" href="projects/project-3.html" data-target="#myModal">
+						<img src="img/projects/thumbs/Intel.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">Intel RealSense</span><br>
+						  	<span class="portfolio-category">UX DESIGNER | UX </span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+                  
+			  </ul>
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End Portfolio -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-body"></div>
+	        </div> <!-- /.modal-content -->
+	    </div> <!-- /.modal-dialog -->
+	</div> <!-- /.modal -->
+    
+    	<!-- Begin Call to Action -->
+	<div class="cta" style="background:#d8d8d8;">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-1">
+					<p>
+						Interested in working with me?
+					</p>
+				</div>
+				<div class="col-lg-2">
+					<a href="#" data-id="section6" class="btn btn-default button-cta scroll-link">
+						Contact
+					</a>
+				</div>
+				<div class="col-lg-4">
+					<p>
+						Ready when you are.
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- End Call to Action -->
+
+
+
+	<!-- Begin About Me -->
+	<section id="section3">
+
+		<div class="about" style="background:white;">
+
+			<div class="container">
+
+				<div class="row">
+
+					<!-- Page Title -->
+					<div class="col-lg-10 col-lg-offset-1 page-title-2">
+						<h3>About Me</h3>
+						<hr>
+						<p>A passionate designer of creative &amp; innovative mind.</p>
+					</div>
+
+					<!-- Who We Are-->
+					<div data-scroll-reveal="enter top and move 50px over 1.2s" class="col-sm-4 col-sm-offset-1">
+						<h5>Who I am</h5>
+						<p>I am a passionate UX/UI designer pursueing my master degree in Human Computer Interaction at Indiana University. I did my undergrad in Telecommunication Engineering at Beijing University of Posts and Telecommunications.</p>
+					</div> 
+
+					<!-- What I believe -->
+					<div data-scroll-reveal="enter bottom and move 50px over 1.2s" class="col-sm-6">
+						<h5>What I believe</h5>
+						<p>"Design must be functional and functionality must be translated into visual aesthetics without any reliance on gimmicks that have to be explained"<br> - - <em>Ferdinand Porsche</em> </p>
+					</div>
+
+					
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End About Us -->
+
+
+
+
+	<!-- Begin Quote -->
+	<div class="quote" data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;" data-anchor-target=".quote-content">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-lg-12">
+					<p data-scroll-reveal="enter top and move 50px over 1s" class="quote-content">
+						Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep. 
+					</p>
+					<a data-scroll-reveal="enter bottom and move 50px over 1s" href="ZiyingCai-Resume.pdf" data-id="section3" class="btn btn-default quote-name">View My Resume</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- End Quote -->
+    
+    
+
+	<!-- Begin Contact -->
+	<section id="section6">
+
+		<div class="contact">
+
+			<div class="container">
+
+				<!-- Page Title -->
+				<div class="col-lg-10 col-lg-offset-1 page-title">
+					<h3>Contact</h3>
+					<hr>
+					<p>Get in touch with me, for business or a quick hello!</p>
+				</div>
+
+				<!-- Address -->
+				<div class="col-md-5 col-md-offset-1">
+					<p class="contact-info">
+						<a href="https://www.google.com/maps/@39.161795,-86.4796757,17z" target="_blank"><em>500 S Park Ridge Rd, Bloomington, IN, 47401</em></a>
+					</p>
+				</div>
+
+				<!-- Phone Number -->
+				<div class="col-md-2">
+					<p class="contact-info">+18123610183
+            </p>
+				</div>
+
+				<!-- Email -->
+				<div class="col-md-3">
+					<p class="contact-info-email"><a href="mailto:caiziyingsq@gmail.com"><em>caiziyingsq@gmail.com</em></a></p>
+				</div>
+
+				<!-- Form -->
+				<form name="contactform" method="post" action="php/mailer.php" class="form-horizontal" role="form">
+
+					<div data-scroll-reveal="enter top and move 50px over 1.5s" class="col-md-5">
+						<div class="form-group">
+							<div class="col-md-12">
+								<input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12">
+								<input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12">
+								<input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject">
+							</div>
+						</div>
+					</div>
+					
+					<div data-scroll-reveal="enter bottom and move 50px over 1.5s" class="col-md-7" >
+						<div class="form-group">
+							<div class="col-md-12">
+								<textarea class="form-control form-control-message" rows="5" id="inputMessage" name="inputMessage" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div data-scroll-reveal="enter bottom and move 50px over 1.7s" class="form-group">
+							<div class="col-md-12">
+								<button type="submit" class="btn btn-default button-send">
+									Send
+								</button>
+							</div>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End Contact -->
+
+	<!-- Begin Footer -->
+	<footer id="footer">
+
+		<div class="container">
+			
+			<!-- Copyright And Social -->
+			<div class="col-sm-5">
+				<p class="copyright no-margin">Copyright © Ziying Cai 2015</p>
+			</div>
+
+			<!-- Go To Top -->
+			<div class="col-sm-3 text-center">
+				<p class="no-margin" style="text-align: center"><span class="ion-ios7-arrow-up up-icon scroll-top" style="display: inline-block;"></span></p>
+			</div>
+
+			<!-- Love -->
+			<div class="col-sm-4 made-with-love">
+				<p class="no-margin">Made with &nbsp;<span class="ion-ios7-heart heart-icon"></span>&nbsp; in Bloomington.</p>
+			</div>
+
+		</div>
+
+	</footer>
+	<!-- End Footer --> 
+
+	<!-- Javascript Files -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<script type="text/javascript" src="js/navbar.js"></script>
+	<script type="text/javascript" src="js/ticker.js"></script>
+	<script type="text/javascript" src="js/modal-fix.js"></script>
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript" src="js/start-skrollr.js"></script>	
+	<script type="text/javascript" src="js/scrollReveal.js"></script>
+	<script type="text/javascript">
+		window.scrollReveal = new scrollReveal();
+		//activate scrollReveal.js
+	</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58455029-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
